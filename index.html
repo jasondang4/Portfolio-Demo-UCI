@@ -1,40 +1,46 @@
 <!DOCTYPE html>
-<html lang="en-US">
-
-  <head>
-    <meta charset="UTF-8">
-    <title>Hello HTML!</title>
-  </head>
-
-  <body>
-    <header>
-      <!-- Headings -->
-      <h1>Hello World!</h1>
-      <h2>Hello World!</h2>
-      <h3>Hello World!</h3>
-      <h4>Hello World!</h4>
-      <h5>Hello World!</h5>
-      <h6>Hello World!</h6>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  <title>Jason Dang's Portfolio</title>
+</head>
+<body>
+    <header class="header-background">
+<!-- Nav Bar -->
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+<!-- Header -->
+        <div class="header-content">
+            <h1>Hi, my name is Jason</h1>
+            <p> I am a Beginner Coder</p>
+        </div>
     </header>
-
-    <section>
-      <!-- Image -->
-      <img src="https://via.placeholder.com/200" alt="placeholder image"/>
-
-      <!-- Paragraph -->
-      <p>This is a paragraph.</p>
-      <p>This is a paragraph with <strong>BOLDED TEXT</strong>.</p>
-    
-       <!-- Unordered list -->
-       <ul>
-        <li>This is list item one</li>
-        <li>This is list item two</li>
-        <li>This is list item three</li>
-      </ul>
-
-      <!-- Link -->
-      <a href="https://www.google.com">This is a link to Google.com</a>
-    </section>
-  </body>
-
-</html>
+    <main>
+<!-- About section -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Hello! I am currently an unemployed student who was recently a Biology major. I realised a year into my studies that it was not the future meant for me. Thus I am here learning to code via a coding bootcamp!
+            </section>
+<!-- Portfolio section -->
+        <section id="portfolio">
+            <h2>My Work</h2>
+            <div class="project" id="project1">Project 1</div> 
+            <div class="project" id="project2">Project 2</div>
+            <div class="project" id="project3">Project 3</div>
+            <div class="project" id="project4">Project 4</div>        
+        </section>
+<!-- contact section -->
+        <section id="contact">
+            <h2>~ (nothing to put yet) ~</h2>
+            <button class="btn btn-default td-btn outline white">Button for fun</button>
+        </section>
+    </main>
+    <footer>
+        
