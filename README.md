@@ -3,7 +3,7 @@
 ## Description
 This second week challenge was to create a demo portfolio website from complete scratch. Here I have created the index.html and the Css. Putting this together we have a relatively complete portfolio (excluding parts that I cannot complete due to lacking projects ect..). On this page you can see a brief description of my career and my experience. Furhtermore, you can see my work and what I have completed thusfar. 
 
-##Completed tasks
+## Completed tasks
 I have a fully developed portfolio
 I have a working navigation
 The UI scrolls to the corresponding work
